@@ -1,0 +1,7 @@
+flask
+flask_sqlalchemy
+psycopg2-binary
+watchdog
+ultralytics
+opencv-python-headless
+python-dotenv
