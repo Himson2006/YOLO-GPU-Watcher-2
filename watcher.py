@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 import os, time, logging
 from flask import Flask

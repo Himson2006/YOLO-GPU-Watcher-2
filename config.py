@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # read .env
+load_dotenv(override=True)  # read .env
 
 class Config:
     SQLALCHEMY_DATABASE_URI = os.environ["DATABASE_URL"]
