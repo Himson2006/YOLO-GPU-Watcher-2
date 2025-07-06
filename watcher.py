@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+from dotenv import load_dotenv
+load_dotenv()
+
 import os, time, logging
 from flask import Flask
 from watchdog.observers import Observer
